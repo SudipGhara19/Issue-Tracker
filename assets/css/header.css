@@ -1,0 +1,27 @@
+/* this file contains the styles for header and its components */
+#nav {
+    font-family: Bahnschrift SemiBold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background: rgb(1, 174, 183);
+    color: white;
+}
+
+.header-btn a{
+    text-decoration: none;
+}
+
+#nav .header-btn a h2{
+    padding: 8px;
+    border-radius: 5px;
+   color: white;
+   background-color: rgb(1, 106, 112);
+   box-shadow: 2px 2px 5px 1px rgb(45, 45, 45);
+}
+
+#nav .header-btn h2:hover{
+    background-color: rgb(2, 160, 168);
+}
